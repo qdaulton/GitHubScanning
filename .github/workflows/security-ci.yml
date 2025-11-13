@@ -24,6 +24,9 @@ jobs:
           pip install -r requirements.txt
           pip install bandit safety
 
+      - name: Install package (editable)
+        run: pip install -e .
+
       - name: Run unit tests
         run: pytest -q
 
