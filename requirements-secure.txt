@@ -1,0 +1,4 @@
+# Secure versions for Part 3
+pytest==7.4.0
+requests==2.32.4
+urllib3==2.5.0
